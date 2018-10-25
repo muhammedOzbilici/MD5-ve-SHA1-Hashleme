@@ -1,4 +1,4 @@
-    **  md5 hashleme örneği **
+    /////// md5 hashleme örneği 
     public static String createMd5Message(final String hshMsg) {
         String hashtext = null;
         try {
@@ -18,7 +18,7 @@
         return hashtext;
     }
 
-    ** SHA1 hashleme örneği **
+   ///////// SHA1 hashleme örneği 
     public static String createSHA1Message(final String hshMsg) {
         StringBuffer sb = new StringBuffer();
         try {
