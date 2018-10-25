@@ -4,4 +4,4 @@ Verilen String değerini MD5 ve SHA1 algoritması ile hashleyip yine string olar
 <br />
 Sql select sorgusu ile de hashleme yapılabilir
 ```
-select convert(varchar(40) , HASHBYTES('SHA1' ,'hashlenecek değer') , 2)```
+select convert(varchar(40) , HASHBYTES('SHA1' ,'hashlenecek değer') , 2)
